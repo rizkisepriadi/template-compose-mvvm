@@ -1,6 +1,7 @@
 package com.app.template_compose_mvvm
 
 import android.app.Application
+import com.app.template_compose_mvvm.data.source.remote.network.networkModule
 import com.app.template_compose_mvvm.di.appModule
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.GlobalContext.startKoin
@@ -10,7 +11,12 @@ class BaseApplication : Application() {
         super.onCreate()
         startKoin {
             androidContext(this@BaseApplication)
-            modules(appModule)
+            modules(
+                listOf(
+                    appModule,
+                    networkModule
+                )
+            )
         }
     }
 }
