@@ -1,6 +1,6 @@
-# 📱 Kotlin Android Clean Architecture Template
+# 📱 Kotlin Android MVVM Template
 
-A modern Android starter template using **Kotlin**, **Jetpack Compose**, **MVI architecture**, **Hilt for DI**, and **modular Clean Architecture**. Designed to be scalable, testable, and developer-friendly.
+A modern Android starter template using **Kotlin**, **Jetpack Compose**, **MVVM**, **Koin for DI**, and **modular Clean Architecture**. Designed to be scalable, testable, and developer-friendly.
 
 ## 📦 Tech Stack
 
@@ -31,7 +31,6 @@ A modern Android starter template using **Kotlin**, **Jetpack Compose**, **MVI a
 ## 🛠 Features
 
 - Modularization
-- State management using MVI pattern
 - Navigation using Navigation Compose
 - ViewModels scoped via Koin
 - Built-in networking and local persistence
