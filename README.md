@@ -1,25 +1,24 @@
 # 📱 Kotlin Android MVVM Template
 
-A modern Android starter template using **Kotlin**, **Jetpack Compose**, **MVVM**, **Koin for DI**, and **modular Clean Architecture**. Designed to be scalable, testable, and developer-friendly.
+A modern Android starter template using **Kotlin**, **Jetpack Compose**, **MVVM** and **Koin for DI**. Designed to be scalable, testable, and developer-friendly.
 
 ## 📦 Tech Stack
 
 - **Kotlin**
 - **Jetpack Compose**
-- **MVI (Model-View-Intent)**
+- **MVVM (Model-View-ViewModel)**
 - **Koin (Dependency Injection)**
 - **Room** (Local database)
 - **Retrofit + OkHttp** (Networking)
 - **Coil** (Image loading)
 - **Navigation Compose**
-- Modular project structure with Clean Architecture principles
 
 ## 🚀 Getting Started
 
 1. **Clone this template**
    ```bash
    git clone https://github.com/rizkisepriadi/template-compose-mvvm.git
-   cd template-compose-mvi-cleanarch
+   cd template-compose-mvvm
    
 2. **Change module name and package**
    - Use Android Studio’s Refactor > Rename to change the package. 
@@ -30,10 +29,9 @@ A modern Android starter template using **Kotlin**, **Jetpack Compose**, **MVVM*
 
 ## 🛠 Features
 
-- Modularization
 - Navigation using Navigation Compose
 - ViewModels scoped via Koin
-- Built-in networking and local persistence
+- Built-in networking
 - Sample UI using Material3
 
 ## 🧪 Testing
