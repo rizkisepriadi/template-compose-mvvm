@@ -58,6 +58,8 @@ dependencies {
     implementation(libs.androidx.constraintlayout.compose)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.runtime.livedata)
 
     // Compose Testing
     androidTestImplementation(libs.androidx.ui.test.junit4)

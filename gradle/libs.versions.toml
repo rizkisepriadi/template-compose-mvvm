@@ -14,6 +14,7 @@ lifecycleRuntimeKtx = "2.8.7"
 activityCompose = "1.10.1"
 androidActivityKtx = "1.8.0"
 androidConstraintLayoutCompose = "1.1.0"
+runtimeLivedata = "1.8.0"
 
 # Dependency Injection
 koinAndroidxCompose = "3.5.3"
@@ -61,6 +62,8 @@ androidx-activity-ktx = { group = "androidx.activity", name = "activity-ktx", ve
 
 # Compose BOM + UI
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleRuntimeKtx" }
+androidx-runtime-livedata = { module = "androidx.compose.runtime:runtime-livedata", version.ref = "runtimeLivedata" }
 androidx-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "composeVersion" }
 androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
 androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
@@ -115,6 +118,5 @@ androidx-test-truth = { module = "androidx.test.ext:truth", version.ref = "testT
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
-dagger = { id = "com.google.dagger.hilt.android", version = "2.50" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 
